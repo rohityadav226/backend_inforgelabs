@@ -1,0 +1,1809 @@
+INFO:     Will watch for changes in these directories: ['/Users/rohityadav/rohit/InforgeLabs2026/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [70071] using WatchFiles
+INFO:     Started server process [70125]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:56869 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56869 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56883 - "OPTIONS /auth/status HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56883 - "OPTIONS /auth/login HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:57084 - "OPTIONS /auth/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57084 - "GET /auth/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57084 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57086 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57098 - "WebSocket /ws/live?token=undefined" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:57086 - "OPTIONS /auth/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57084 - "OPTIONS /account HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57086 - "OPTIONS /pnl/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57101 - "OPTIONS /positions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57084 - "GET /auth/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57104 - "OPTIONS /risk HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57105 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57086 - "OPTIONS /conditional-rules HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57084 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57086 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57106 - "GET /pnl/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57101 - "GET /positions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57101 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57106 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57084 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57109 - "WebSocket /ws/live?token=undefined" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:57111 - "WebSocket /ws/live?token=undefined" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:57114 - "WebSocket /ws/live?token=undefined" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:57117 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57118 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57118 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57117 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57120 - "WebSocket /ws/live?token=undefined" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:57135 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57135 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57135 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57137 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57141 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57143 - "WebSocket /ws/live?token=undefined" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:57141 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57141 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57141 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57141 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57145 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57156 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57156 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57156 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57158 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57165 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57165 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57165 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57167 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57169 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57169 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57169 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57169 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57169 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57174 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57180 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57180 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57180 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57182 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57188 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57189 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57189 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57188 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57188 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57188 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57195 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57196 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57196 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57195 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+WARNING:  WatchFiles detected changes in 'app/positions/routes.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [70125]
+INFO:     Started server process [73452]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/positions/routes.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [73452]
+Process SpawnProcess-3:
+Traceback (most recent call last):
+  File "/Users/rohityadav/miniconda3/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Users/rohityadav/miniconda3/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/main.py", line 3, in <module>
+    from app.positions.routes import router as positions_router
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/positions/routes.py", line 64
+    return positions
+IndentationError: unexpected indent
+WARNING:  WatchFiles detected changes in 'app/positions/routes.py'. Reloading...
+Process SpawnProcess-4:
+Traceback (most recent call last):
+  File "/Users/rohityadav/miniconda3/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Users/rohityadav/miniconda3/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/main.py", line 3, in <module>
+    from app.positions.routes import router as positions_router
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/positions/routes.py", line 62
+    ]
+IndentationError: unexpected indent
+WARNING:  WatchFiles detected changes in 'app/positions/routes.py'. Reloading...
+Process SpawnProcess-5:
+Traceback (most recent call last):
+  File "/Users/rohityadav/miniconda3/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Users/rohityadav/miniconda3/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/main.py", line 3, in <module>
+    from app.positions.routes import router as positions_router
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/positions/routes.py", line 64
+    return positions
+IndentationError: unexpected indent
+WARNING:  WatchFiles detected changes in 'app/positions/routes.py'. Reloading...
+INFO:     Started server process [73508]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:57208 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57210 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57229 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57229 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57210 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57208 - "GET /account HTTP/1.1" 404 Not Found
+WARNING:  WatchFiles detected changes in 'app/positions/routes.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [73508]
+INFO:     Started server process [73528]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:57238 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57240 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57240 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57238 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+WARNING:  WatchFiles detected changes in 'app/positions/routes.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [73528]
+INFO:     Started server process [73550]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:57248 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57249 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57249 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57248 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57248 - "GET /auth/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57249 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57263 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57264 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57260 - "GET /pnl/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57262 - "GET /positions HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1135, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 245, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/positions/routes.py", line 8, in positions
+    raw = get_positions()
+          ^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/broker/zerodha.py", line 21, in get_positions
+    return kite.positions()["net"]
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 445, in positions
+    return self._get("portfolio.positions")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 861, in _get
+    return self._request(route, "GET", url_args=url_args, params=params, is_json=is_json)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 937, in _request
+    raise exp(data["message"], code=r.status_code)
+kiteconnect.exceptions.InputException: Invalid `api_key` or `access_token`.
+INFO:     127.0.0.1:57260 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57264 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57263 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57263 - "GET /positions HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1135, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 245, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/positions/routes.py", line 8, in positions
+    raw = get_positions()
+          ^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/broker/zerodha.py", line 21, in get_positions
+    return kite.positions()["net"]
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 445, in positions
+    return self._get("portfolio.positions")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 861, in _get
+    return self._request(route, "GET", url_args=url_args, params=params, is_json=is_json)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 937, in _request
+    raise exp(data["message"], code=r.status_code)
+kiteconnect.exceptions.InputException: Invalid `api_key` or `access_token`.
+INFO:     127.0.0.1:57264 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57260 - "GET /positions HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1135, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 245, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/positions/routes.py", line 8, in positions
+    raw = get_positions()
+          ^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/broker/zerodha.py", line 21, in get_positions
+    return kite.positions()["net"]
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 445, in positions
+    return self._get("portfolio.positions")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 861, in _get
+    return self._request(route, "GET", url_args=url_args, params=params, is_json=is_json)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 937, in _request
+    raise exp(data["message"], code=r.status_code)
+kiteconnect.exceptions.InputException: Invalid `api_key` or `access_token`.
+INFO:     127.0.0.1:57264 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57264 - "GET /positions HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1135, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 245, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/positions/routes.py", line 8, in positions
+    raw = get_positions()
+          ^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/broker/zerodha.py", line 21, in get_positions
+    return kite.positions()["net"]
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 445, in positions
+    return self._get("portfolio.positions")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 861, in _get
+    return self._request(route, "GET", url_args=url_args, params=params, is_json=is_json)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 937, in _request
+    raise exp(data["message"], code=r.status_code)
+kiteconnect.exceptions.InputException: Invalid `api_key` or `access_token`.
+INFO:     127.0.0.1:57269 - "GET /auth/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57271 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57276 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57277 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57272 - "GET /pnl/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57274 - "GET /positions HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1135, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 245, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/positions/routes.py", line 8, in positions
+    raw = get_positions()
+          ^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/broker/zerodha.py", line 21, in get_positions
+    return kite.positions()["net"]
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 445, in positions
+    return self._get("portfolio.positions")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 861, in _get
+    return self._request(route, "GET", url_args=url_args, params=params, is_json=is_json)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 937, in _request
+    raise exp(data["message"], code=r.status_code)
+kiteconnect.exceptions.InputException: Invalid `api_key` or `access_token`.
+INFO:     127.0.0.1:57272 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57277 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57276 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57276 - "GET /positions HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1135, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 245, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/positions/routes.py", line 8, in positions
+    raw = get_positions()
+          ^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/broker/zerodha.py", line 21, in get_positions
+    return kite.positions()["net"]
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 445, in positions
+    return self._get("portfolio.positions")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 861, in _get
+    return self._request(route, "GET", url_args=url_args, params=params, is_json=is_json)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 937, in _request
+    raise exp(data["message"], code=r.status_code)
+kiteconnect.exceptions.InputException: Invalid `api_key` or `access_token`.
+INFO:     127.0.0.1:57280 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57281 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57281 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57280 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57284 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57285 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57285 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57284 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57287 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57287 - "GET /account HTTP/1.1" 404 Not Found
+WARNING:  WatchFiles detected changes in 'app/positions/routes.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [73550]
+INFO:     Started server process [73658]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:57291 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57292 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57292 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57291 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57298 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57299 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57299 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57298 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57303 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57304 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57304 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57303 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57306 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57306 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57306 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57308 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57308 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57306 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57312 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57313 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57313 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57312 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57316 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57316 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57316 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57318 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57318 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57318 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57323 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57324 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57324 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57323 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57327 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57328 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57328 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57327 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57331 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57332 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57332 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57331 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57331 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57331 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57335 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57336 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57336 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57335 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57338 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57338 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57338 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57340 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57342 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57342 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57342 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57342 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57342 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57342 - "GET /account HTTP/1.1" 404 Not Found
+WARNING:  WatchFiles detected changes in 'app/positions/routes.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [73658]
+Process SpawnProcess-10:
+Traceback (most recent call last):
+  File "/Users/rohityadav/miniconda3/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Users/rohityadav/miniconda3/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/main.py", line 3, in <module>
+    from app.positions.routes import router as positions_router
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/positions/routes.py", line 28, in <module>
+    "total_pnl": total_pnl
+                 ^^^^^^^^^
+NameError: name 'total_pnl' is not defined
+WARNING:  WatchFiles detected changes in 'app/positions/routes.py'. Reloading...
+Process SpawnProcess-11:
+Traceback (most recent call last):
+  File "/Users/rohityadav/miniconda3/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Users/rohityadav/miniconda3/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/main.py", line 3, in <module>
+    from app.positions.routes import router as positions_router
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/positions/routes.py", line 28
+    {
+    ^
+SyntaxError: '{' was never closed
+WARNING:  WatchFiles detected changes in 'app/positions/routes.py'. Reloading...
+Process SpawnProcess-12:
+Traceback (most recent call last):
+  File "/Users/rohityadav/miniconda3/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Users/rohityadav/miniconda3/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/main.py", line 3, in <module>
+    from app.positions.routes import router as positions_router
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/positions/routes.py", line 26
+    {
+    ^
+SyntaxError: '{' was never closed
+WARNING:  WatchFiles detected changes in 'app/positions/routes.py'. Reloading...
+Process SpawnProcess-13:
+Traceback (most recent call last):
+  File "/Users/rohityadav/miniconda3/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/Users/rohityadav/miniconda3/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/miniconda3/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/main.py", line 3, in <module>
+    from app.positions.routes import router as positions_router
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/positions/routes.py", line 28, in <module>
+    "total_pnl": total_pnl
+                 ^^^^^^^^^
+NameError: name 'total_pnl' is not defined
+WARNING:  WatchFiles detected changes in 'app/positions/routes.py'. Reloading...
+INFO:     Started server process [73982]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:57367 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57369 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57369 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57367 - "GET /risk HTTP/1.1" 404 Not Found
+WARNING:  WatchFiles detected changes in 'app/positions/routes.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [73982]
+WARNING:  WatchFiles detected changes in 'app/positions/routes.py'. Reloading...
+INFO:     Started server process [73994]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [73997]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:57421 - "GET /auth/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57423 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57428 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57429 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57424 - "GET /pnl/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57426 - "GET /positions HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1135, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 245, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/positions/routes.py", line 8, in positions
+    raw = get_positions()
+          ^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/broker/zerodha.py", line 21, in get_positions
+    return kite.positions()["net"]
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 445, in positions
+    return self._get("portfolio.positions")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 861, in _get
+    return self._request(route, "GET", url_args=url_args, params=params, is_json=is_json)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 937, in _request
+    raise exp(data["message"], code=r.status_code)
+kiteconnect.exceptions.InputException: Invalid `api_key` or `access_token`.
+INFO:     127.0.0.1:57424 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57424 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57429 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57429 - "GET /positions HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1135, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 245, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/positions/routes.py", line 8, in positions
+    raw = get_positions()
+          ^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/broker/zerodha.py", line 21, in get_positions
+    return kite.positions()["net"]
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 445, in positions
+    return self._get("portfolio.positions")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 861, in _get
+    return self._request(route, "GET", url_args=url_args, params=params, is_json=is_json)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 937, in _request
+    raise exp(data["message"], code=r.status_code)
+kiteconnect.exceptions.InputException: Invalid `api_key` or `access_token`.
+INFO:     127.0.0.1:57434 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57434 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57434 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57436 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57438 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57438 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57438 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57440 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57446 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57446 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57446 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57446 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57446 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57448 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57450 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57450 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57450 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57452 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57456 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57456 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57456 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57458 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57460 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57460 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57460 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57460 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57460 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57462 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57467 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57467 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57467 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57469 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57472 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57472 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57472 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57474 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57474 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57474 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57478 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57478 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57478 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57478 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57481 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57481 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57481 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57483 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57485 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57485 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57485 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57487 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57487 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57487 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57497 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57497 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57497 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57501 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57524 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57525 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57525 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57524 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57550 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57550 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57550 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57550 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57554 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57554 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57576 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57576 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57576 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57580 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57603 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57604 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57604 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57603 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57625 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57625 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57625 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57631 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57631 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57625 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57658 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57659 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57659 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57658 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57683 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57683 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57683 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57687 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57701 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57701 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57701 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57701 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57701 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57711 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57734 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57736 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57736 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57734 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57762 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57763 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57763 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57762 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57763 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57763 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57763 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57787 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57787 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57763 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57812 - "OPTIONS /risk HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57813 - "OPTIONS /conditional-rules HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57812 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57813 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57813 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57812 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57815 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57815 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57815 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57817 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57817 - "OPTIONS /account HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57815 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57815 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57866 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57866 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57866 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57870 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57892 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57894 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57894 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57892 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57919 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57920 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57920 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57919 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57919 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57919 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57944 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57944 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57944 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57948 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57971 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57972 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57972 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57971 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57999 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57999 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57999 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57999 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57999 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58001 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58027 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58028 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58028 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58027 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58052 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58052 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58052 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58056 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58075 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58075 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58075 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58075 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58075 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58083 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58106 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58106 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58106 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58108 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58132 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58132 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58132 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58136 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58148 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58148 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58148 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58148 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58148 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58163 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58186 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58186 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58186 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58190 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58214 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58214 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58214 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58218 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58218 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58218 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58241 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58241 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58241 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58243 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58278 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58279 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58279 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58278 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58314 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58315 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58315 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58314 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58314 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58314 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58342 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58343 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58343 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58342 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58368 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58369 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58369 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58368 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58396 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58397 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58397 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58397 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58396 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58396 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58423 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58424 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58424 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58423 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58450 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58451 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58451 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58450 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58473 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58473 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58473 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58477 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58477 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58473 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58504 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58505 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58505 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58504 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58542 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58543 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58543 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58542 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58563 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58563 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58563 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58563 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58563 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58571 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58596 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58597 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58597 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58596 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58624 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58625 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58625 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58624 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58625 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58625 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58625 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58625 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58625 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58651 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58675 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58675 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58675 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58679 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58701 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58701 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58701 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58705 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58705 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58705 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58733 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58733 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58733 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58737 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58764 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58764 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58764 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58768 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58804 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58805 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58805 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58804 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58804 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58804 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58843 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58843 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58843 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58845 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58876 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58876 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58876 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58881 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58914 - "OPTIONS /pnl/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "OPTIONS /positions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58917 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58919 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58920 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58914 - "GET /pnl/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58914 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58920 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58914 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58919 - "GET /positions HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1135, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 245, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/positions/routes.py", line 8, in positions
+    raw = get_positions()
+          ^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/broker/zerodha.py", line 21, in get_positions
+    return kite.positions()["net"]
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 445, in positions
+    return self._get("portfolio.positions")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 861, in _get
+    return self._request(route, "GET", url_args=url_args, params=params, is_json=is_json)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 937, in _request
+    raise exp(data["message"], code=r.status_code)
+kiteconnect.exceptions.InputException: Invalid `api_key` or `access_token`.
+INFO:     127.0.0.1:58982 - "GET /positions HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1135, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 245, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/positions/routes.py", line 8, in positions
+    raw = get_positions()
+          ^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/app/broker/zerodha.py", line 21, in get_positions
+    return kite.positions()["net"]
+           ^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 445, in positions
+    return self._get("portfolio.positions")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 861, in _get
+    return self._request(route, "GET", url_args=url_args, params=params, is_json=is_json)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohityadav/rohit/InforgeLabs2026/backend/venv/lib/python3.12/site-packages/kiteconnect/connect.py", line 937, in _request
+    raise exp(data["message"], code=r.status_code)
+kiteconnect.exceptions.InputException: Invalid `api_key` or `access_token`.
+INFO:     127.0.0.1:59031 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59032 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59032 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59031 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59071 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59071 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59071 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59073 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59103 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59103 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59103 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59109 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59109 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59103 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59144 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59145 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59145 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59144 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59177 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59178 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59178 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59177 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59195 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59195 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59195 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59207 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59207 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59195 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59240 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59241 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59241 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59240 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59266 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59267 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59267 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59266 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59266 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59266 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59292 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59293 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59293 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59292 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59323 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59324 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59324 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59323 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59352 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59352 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59352 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59356 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59356 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59356 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59378 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59378 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59378 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59383 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59418 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59418 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59418 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59422 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59444 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59444 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59444 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59444 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59446 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59446 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59483 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59484 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59484 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59483 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59509 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59511 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59511 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59509 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59539 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59539 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59539 - "OPTIONS /conditional-rules HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59539 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59544 - "OPTIONS /risk HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59539 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59539 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59544 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59545 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59545 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59545 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59584 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59606 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59606 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59606 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59608 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59626 - "OPTIONS /account HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59626 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59626 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59626 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59628 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59628 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59626 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59659 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59660 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59660 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59659 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59689 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59690 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59690 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59689 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59689 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59689 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59689 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59732 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59732 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59689 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59761 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59762 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59762 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59761 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59787 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59787 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59787 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59791 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59791 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59791 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59813 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59813 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59813 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59817 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59839 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59839 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59839 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59843 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59865 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59865 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59865 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59869 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59869 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59869 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59892 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59893 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59893 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59892 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59920 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59921 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59921 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59920 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59958 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59958 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59962 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59962 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59962 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59958 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59988 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59989 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59989 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59988 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60015 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60016 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60016 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60015 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60034 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60034 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60034 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60041 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60041 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60034 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60065 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60065 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60065 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60070 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60095 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60095 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60095 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60099 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60113 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60113 - "GET /account HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60113 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60113 - "GET /risk HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60113 - "GET /conditional-rules HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60128 - "GET /risk HTTP/1.1" 404 Not Found
